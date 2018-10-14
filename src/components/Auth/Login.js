@@ -31,7 +31,6 @@ class Login extends React.Component {
     errors.map((error, i) => <p key={i}>{error.message}</p>);
 
   handleChange = event => {
-    // TODO: Don't understand the line below!!!
     this.setState({ [event.target.name]: event.target.value });
   };
 
