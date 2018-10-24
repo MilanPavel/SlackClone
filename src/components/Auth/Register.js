@@ -9,8 +9,7 @@ import {
   Icon
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-// import firebase from "../../firebase";
-import firebase from "../../keys";
+import firebase from "../../firebase";
 import md5 from "md5";
 
 class Register extends React.Component {

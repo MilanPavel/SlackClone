@@ -9,7 +9,7 @@ import {
   Icon
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-import firebase from "../../keys";
+import firebase from "../../firebase";
 
 class Login extends React.Component {
   state = {

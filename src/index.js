@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 import registerServiceWorker from "./registerServiceWorker";
-import firebase from "./keys";
+import firebase from "./firebase";
 
 import {
   BrowserRouter as Router,
