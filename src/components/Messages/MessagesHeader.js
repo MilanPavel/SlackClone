@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Segment, Input, Icon } from "semantic-ui-react";
-import HeaderSubHeader from "semantic-ui-react/dist/commonjs/elements/Header/HeaderSubheader";
+// import HeaderSubHeader from "semantic-ui-react/dist/commonjs/elements/Header/HeaderSubheader";
 
 class MessagesHeader extends React.Component {
   render() {
@@ -20,7 +20,7 @@ class MessagesHeader extends React.Component {
             size="mini"
             icon="search"
             name="searchTerm"
-            placeHolder="Search Messages"
+            placeholder="Search Messages"
           />
         </Header>
       </Segment>
